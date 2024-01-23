@@ -4,9 +4,9 @@ import hashlib
 import subprocess
 from datetime import datetime
 
-src_folder = r'D:\@Workspace\@Ai Art Projects\Tshirt And Stocks Projects\WOP\sync'
-ip = "OWNEROW-5CRLKQU"
-dest_folder = r'\\'+ip+'\\work\\sync'
+src_folder = r'D:\@Sync'
+ip = "LCRT-A-NEW"
+dest_folder = r'\\'+ip+'\\@Sync'
 
 def hash_file(filename):
     """Return the SHA-1 hash of the file"""
